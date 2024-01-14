@@ -17,7 +17,7 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 #一个环境下装了CPU版本就不能再安装CUDA版本,二选一即可
 #更多版本:https://pytorch.org/get-started/previous-versions
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 #安装Huggingface
 pip install datasets==2.13.0
 pip install transformers==4.30.2
